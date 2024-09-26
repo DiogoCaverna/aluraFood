@@ -2,7 +2,13 @@ package br.com.alurafood.pagamentos.model;
 
 import java.math.BigDecimal;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 //import jakarta.transaction.Status; //???
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
